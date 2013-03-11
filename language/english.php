@@ -323,7 +323,20 @@ $english_array =  array(
 		'uc_tank_266' 	=>  '110',
 		'uc_tank_267' 	=>  'WZ-111 model 1-4',
 		'uc_tank_268' 	=>  '113',
-		
+		'uc_tank_269'   =>  'Universal Carrier QF 2 pounder',
+        'uc_tank_270'   =>  'Alecto',
+        'uc_tank_271'   =>  'Valentine AT',
+        'uc_tank_272'   =>  'АТ 2',
+        'uc_tank_273'   =>  'АТ 7',
+        'uc_tank_274'   =>  'Gun Carrier Churchill',
+        'uc_tank_275'   =>  'АТ 8',
+        'uc_tank_276'   =>  'АТ 15',
+        'uc_tank_277'   =>  'А39 Tortoise',
+        'uc_tank_278'   =>  'FV215b(183)',
+        'uc_tank_279'   =>  'Pz.I',
+        'uc_tank_280'   =>  'Pz.I Ausf.С',
+        'uc_tank_281'   =>  'Pz.II Ausf.G',
+        'uc_tank_282'   =>  'SU-100Y',		
 		
 		// Gun
 		
@@ -614,7 +627,8 @@ $english_array =  array(
 		'uc_gun_284'	=>	'37 mm Gun KwK 36 L/46.5',
 		'uc_gun_285'	=>	'76mm F-34',
 		'uc_gun_286'	=>	'100 mm 44-100JT',
-
+        'uc_gun_287'    =>  'QF 2-pdr AT Gun Mk. IX',
+        'uc_gun_288'    =>  '130 mm B-13-S2',
 
 		// Turret
 		
@@ -1127,6 +1141,7 @@ $english_array =  array(
 		'uc_engine_233'	=>	'12150L-3',
 		'uc_engine_234'	=>	'NORINCO 12150L7',
 		'uc_engine_235' =>  'Type 102',
+		'uc_engine_236' =>  'GAM-34-BT',
 		
 		// Supension
 		
@@ -1558,6 +1573,7 @@ $english_array =  array(
 		'uc_suspension_425'	=>	'IS-7',
 		'uc_suspension_426'	=>	'Type 62 A',
 		'uc_suspension_427'	=>	'Type59 A',
+		'uc_suspension_428' =>  'T-100',
 		
 		// Radio
 		
