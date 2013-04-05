@@ -331,7 +331,16 @@ $english_array =  array(
         'uc_tank_279'   =>  'Pz.I',
         'uc_tank_280'   =>  'Pz.I Ausf.С',
         'uc_tank_281'   =>  'Pz.II Ausf.G',
-        'uc_tank_282'   =>  'SU-100Y',		
+        'uc_tank_282'   =>  'SU-100Y',
+        'uc_tank_283'   =>  'VK 20.01 (D)',
+        'uc_tank_284'   =>  'VK 30.02 (D) v1',
+        'uc_tank_285'   =>  'Indien Panzer',
+        'uc_tank_286'   =>  'Prototype der Arbeitsgruppe A',
+        'uc_tank_287'   =>  'Leopard 1',
+        'uc_tank_288'   =>  'Aufklärerpanzer Panther',
+        'uc_tank_289'   =>  'Т-60',
+        'uc_tank_290'   =>  'Т-70',
+        'uc_tank_291'   =>  'Т-80',        	
 		
 	),
 );

@@ -38,7 +38,7 @@ if(!class_exists('wot')) {
 		protected $lang_file	= array();
 		protected $path			= false;
 		public $lang			= false;
-		public $version			= '0.4';
+		public $version			= '0.5';
 		
 		/**
 		 * Load classes
