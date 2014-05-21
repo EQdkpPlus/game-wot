@@ -114,6 +114,11 @@ if(!class_exists('wot')) {
 			
 			return $info;
 		}
+		
+				
+		protected function load_filters($langs){
+			return array();
+		}
 	}
 }
 ?>
