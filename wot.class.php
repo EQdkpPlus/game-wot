@@ -4,15 +4,14 @@
  * License:		Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
  * Link:		http://creativecommons.org/licenses/by-nc-sa/3.0/
  * -----------------------------------------------------------------------
- * Began:		2009
  * Date:		$Date$
  * -----------------------------------------------------------------------
  * @author		$Author$
- * @copyright	2006-2011 EQdkp-Plus Developer Team
+ * @copyright	2006-2014 EQdkp-Plus Developer Team
  * @link		http://eqdkp-plus.com
  * @package		eqdkp-plus
  * @version		$Rev$
- * 
+ *
  * $Id$
  */
 
@@ -22,12 +21,13 @@ if ( !defined('EQDKP_INC') ){
 
 if(!class_exists('wot')) {
 	class wot extends game_generic {
-		public $version			= '0.5';
-		protected $this_game	= 'wot';
-		protected $types		= array('classes', 'races');
-		protected $classes		= array();
-		protected $races		= array();
-		public $langs			= array('english', 'german');
+		protected static $apiLevel	= 20;
+		public $version				= '0.5';
+		protected $this_game		= 'wot';
+		protected $types			= array('classes', 'races');
+		protected $classes			= array();
+		protected $races			= array();
+		public $langs				= array('english', 'german');
 
 		protected $class_dependencies = array(
 			array(
@@ -87,35 +87,20 @@ if(!class_exists('wot')) {
 			return $xml_fields;
 		}
 
-		/**
-		* Returns ImageTag with class-icon
-		*
-		* @param int $class_id
-		* @param bool $big
-		* @param bool $pathonly
-		* @return html string
-		*/
 		public function decorate_classes($class_id, $big=false, $pathonly=false) {
-		if($big AND !in_array('classes_big', $this->icons)) $big = false;
-		$faction = ($class_id) ? $this->config->get('wot_faction')*8 : 0;
-		$icon_path = $this->root_path.'games/'.$this->this_game.'/classes/'.($class_id+$faction).(($big) ? '_b.png' : '.png');
-		if(is_file($icon_path)){
-			return ($pathonly) ? $icon_path : "<img src='".$icon_path."' alt='' />";
-		}
-		return false;
+			if($big AND !in_array('classes_big', $this->icons)) $big = false;
+			$faction = ($class_id) ? $this->config->get('wot_faction')*8 : 0;
+			$icon_path = $this->root_path.'games/'.$this->this_game.'/classes/'.($class_id+$faction).(($big) ? '_b.png' : '.png');
+			if(is_file($icon_path)){
+				return ($pathonly) ? $icon_path : "<img src='".$icon_path."' alt='' />";
+			}
+			return false;
 		}
 
 		public function install($install=false){
-			
-
-			//Do this SQL Query NOT if the Eqdkp is installed -> only @ the first install
-			#if($install){
-			#}
-			
-			return $info;
+			return array();
 		}
-		
-				
+
 		protected function load_filters($langs){
 			return array();
 		}
