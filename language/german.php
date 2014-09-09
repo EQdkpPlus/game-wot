@@ -44,6 +44,8 @@ $german_array =  array(
 		// Profile information
 		'uc_team'		=> 'Team',
 		'uc_tank_type'	=> 'Panzer Typ',
+		'uc_race'		=> 'Rasse',
+		'uc_class'		=> 'Klasse',
 
 		// Tanks
 		'uc_tank_0'		=>	'-',

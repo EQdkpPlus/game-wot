@@ -43,7 +43,9 @@ $english_array =  array(
 		// Profile information
 		'uc_team'		=> 'Team',
 		'uc_tank_type'	=> 'Tank Class',
- 		
+		'uc_race'		=> 'Race',
+		'uc_class'		=> 'Class',
+
 		// Tanks
 		'uc_tank_0'		=>	'-',
 		'uc_tank_1'		=>	'T1 Cunningham',
