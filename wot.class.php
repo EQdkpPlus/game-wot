@@ -80,7 +80,7 @@ if(!class_exists('wot')) {
 					'type'			=> 'text',
 					'category'		=> 'character',
 					'lang'			=> 'uc_team',
-					'size'			=> 40,
+					'size'			=> 32,
 					'undeletable'	=> true,
 					'visible'		=> true,
 				)
